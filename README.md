@@ -1,38 +1,41 @@
 # CreativeTechnologyMinor - DJ SET "mami tereza"
 Doku der Arbeit für Creative Technology von Dario Luciano Giger und Nora-Lee Rüttimann
 
-# TouchDesigner Visuals – Projekt-README
+# mami tereza – live DJ set mit visuals
 
 ## Projektbeschreibung
 
-Im Rahmen dieses Projekts haben wir uns mit dem kreativen Einsatz von **TouchDesigner** beschäftigt, einem Tool zur Echtzeit-Generierung von Visuals. Unser Ziel war es, visuelle Elemente zu entwickeln, die dynamisch auf Musikdaten reagieren – zum Beispiel durch die Detektion von Snare- und Kick-Drums. Dabei stand nicht nur die technische Umsetzung im Vordergrund, sondern auch das Experimentieren mit gestalterischen Ausdrucksformen im digitalen Raum.
+Im Rahmen des Minors **Creative Technology** haben wir zum ersten Mal mit **TouchDesigner** gearbeitet. Das Tool hat uns direkt fasziniert – besonders die Idee, visuelle Designs zu erstellen, die live auf Musik reagieren. Schnell war klar: Wir wollen ein audioreaktives Visual-Set gestalten.
+
+Zusammen mit der DJane unseres Vertrauens, **mami tereza**, haben wir ein DJ-Set geplant, aufgenommen und mit interaktiven Visuals ergänzt. Gemeinsam wurde eine passende Trackliste zusammengestellt, und parallel dazu entwickelten wir visuelle Elemente, die in Echtzeit auf die Musik reagieren.
 
 ## Tools & Ressourcen
 
 - [TouchDesigner](https://derivative.ca/)
-- YouTube-Tutorials von:
-  - [Elekktronaut](https://www.youtube.com/@elekktronaut)
+- [Audacity](https://www.audacityteam.org/)
+- [YouTube-Tutorials](https://www.youtube.com):
+  - von **elekktronaut**
+- Unterstützung durch:
+  - **ChatGPT** für technische Hilfe und Debugging
 
 ## Einarbeitung & Lernprozess
 
-Die Einarbeitung in TouchDesigner war sehr intensiv. Das Tool ist extrem mächtig und bietet nahezu unbegrenzte Möglichkeiten, ist jedoch auch entsprechend komplex in der Anwendung. Da es von Seiten der Hochschule – wie leider häufig – kaum strukturierte Unterstützung oder Einführung gab, mussten wir uns sämtliche Kenntnisse selbst aneignen. 
+Da es kaum strukturierte Einführung oder Betreuung seitens der Hochschule gab, mussten wir uns praktisch alles selbst beibringen. Der Lernprozess war dementsprechend langwierig, aber auch sehr intensiv. Mit Geduld, YouTube-Tutorials, Foren und ChatGPT konnten wir uns Schritt für Schritt in TouchDesigner einarbeiten. 
 
-Wir haben dabei stark von Online-Ressourcen und der Community profitiert, insbesondere von gut aufbereiteten Tutorials auf YouTube. Auch wenn das selbstständige Erarbeiten grundsätzlich eine wertvolle Kompetenz stärkt und uns Stolz auf den Lernfortschritt macht, hat es den Lernprozess deutlich verlangsamt und erschwert. Das ist unserer Meinung nach kein Einzelfall, sondern ein generelles strukturelles Problem an der **FHGR**, wo praxisnahe technische Begleitung in vielen Projekten zu kurz kommt.
+Auch wenn wir den eigenständigen Lernprozess grundsätzlich schätzen, empfinden wir die mangelnde Begleitung – wie sie an der **FHGR** leider häufiger vorkommt – als klaren Schwachpunkt. Eine fundierte Einführung hätte vieles erleichtert und uns schneller zu kreativeren Ergebnissen geführt.
 
-## Projektverlauf
+## Umsetzung & Technische Herausforderungen
 
-### Konzeption & Kreativer Prozess
+Die Verknüpfung der Visuals mit Audio-Daten stellte sich als wesentlich komplexer heraus als erwartet. Die Konzeption der Visuals war kreativ spannend, aber die Umsetzung der Reaktion auf Audiofrequenzen – insbesondere durch Snare- und Kick-Detection – erforderte viel technisches Verständnis und Feintuning.
 
-Nach ersten Tests und einem langen Einarbeitungsprozess in die Funktionsweise von TouchDesigner haben wir begonnen, mit verschiedenen Visuals zu experimentieren. Besonders spannend war dabei die Möglichkeit, visuelle Formen und Bewegungen direkt durch Musikdaten zu beeinflussen. Die gestalterische Freiheit in TouchDesigner hat uns motiviert, verschiedenste Ideen umzusetzen und mit komplexen Audio-Visual-Verknüpfungen zu arbeiten.
+Ursprünglich wollten wir das Set mit CDJs und einem Mixer aufnehmen. Allerdings ließ sich dieses Audio-Setup nicht wie geplant gleichzeitig mit **Audacity** und **TouchDesigner** verbinden. Daher sind wir kurzfristig auf einen **Controller** umgestiegen. Zwar ließ sich der Sound so problemlos aufnehmen, doch die Reaktivität der Visuals auf die Musik war dadurch leider eingeschränkt. Die direkte Verbindung zwischen Audio-Input und Visuals hat unter der technischen Limitierung gelitten.
 
-### Umsetzung & Technik
+## Ergebnis
 
-Die Verbindung von Sounddaten mit grafischen Elementen – etwa über Snare- und Kick-Detection – stellte eine große Herausforderung dar, war aber auch besonders lehrreich. Wir haben viel über Frequenzanalyse, Dateninterpretation und Echtzeit-Manipulation von Parametern gelernt.
-
-Ein schwieriger Aspekt war der Umgang mit der physischen Technik. Die Einbindung eines externen Controllers war geplant, scheiterte jedoch an fehlender Unterstützung und unklarer Dokumentation. In der Vorbereitung funktionierte die Reaktion der Visuals auf Musik noch gut, konnte im finalen Setup aber leider nicht mehr umgesetzt werden.
+Vorort kümmerte sich Dario Giger um die Videoaufnahmen, während Nora Rütimann Setdesign, Visuals und Projektion übernahm. Das Ergebnis ist ein stimmiges audiovisuelles Set, bei dem Bild und Ton auf ästhetische Weise miteinander verschmelzen – auch wenn es technisch nicht durchgehend so reaktiv wurde wie ursprünglich geplant.
 
 ## Fazit
 
-Trotz der technischen Schwierigkeiten und der weitgehend autodidaktischen Lernweise blicken wir positiv auf das Projekt zurück. Wir haben nicht nur ein neues, komplexes Tool kennengelernt, sondern auch unser technisches und kreatives Verständnis erweitert. 
+Das Projekt war aufwendig, aber extrem lehrreich. Wir haben unsere Fähigkeiten in der kreativen Arbeit mit Echtzeit-Visuals deutlich erweitert und gelernt, mit neuen Tools, unerwarteten Problemen und limitierten Ressourcen umzugehen. Besonders im Bereich der visuellen Gestaltung konnten wir unsere Stärken einsetzen und weiterentwickeln.
 
-TouchDesigner hat uns gezeigt, wie viel Potenzial in der Verbindung von Klang und Bild liegt – sowohl konzeptionell als auch auf der Ebene der Nutzerinteraktion. Wir sehen viel Potenzial, dieses Wissen in zukünftige Projekte zu übertragen und weiterzuentwickeln.
+TouchDesigner hat uns gezeigt, wie viel kreatives Potenzial in der Verbindung von Klang und Bild steckt – und wir sind motiviert, diesen Weg weiterzuverfolgen. Trotz aller Stolpersteine sind wir mit dem Resultat sehr zufrieden und stolz auf das, was wir eigenständig auf die Beine gestellt haben.
