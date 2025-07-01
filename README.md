@@ -52,6 +52,8 @@ TouchDesigner hat uns gezeigt, wie viel kreatives Potenzial in der Verbindung vo
 - Wir haben zu Beginn ein fixes Audiofile verwendet, um unser Setup zu testen.
 - Während des Live-Sets sind wir dann auf ein externes Audio-Device umgestiegen.
 
+![Audio-Input Setup](mmp/4.%20Semester/creative%20technology/doku/WhatsApp%20Image%202025-06-30%20at%2010.22.26%20(1).jpeg)
+
 ---
 
 ### 2. 🔍 Analyse der Audiodaten
@@ -68,12 +70,16 @@ Wir haben drei Hauptbereiche zur Analyse des Audiosignals eingerichtet:
 - Über `In`-Nodes haben wir Daten aus dem übergeordneten Node-Baum eingebunden.
 - Die Ergebnisse wurden mit `Out`-Nodes zurück ins Hauptnetzwerk geführt.
 
+![Kick/Snare/Speed Detection – Struktur](mmp/4.%20Semester/creative%20technology/doku/WhatsApp%20Image%202025-06-30%20at%2010.22.26%20(2).jpeg)
+
 ---
 
 ### 3. 🎚 Visuelle Steuerung über Cues
 
 - Wir haben `Cues` definiert, um visuelle Abläufe synchron zur Musik zu steuern.
 - Beispiel: Die Bewegung von Ballerinas war an den Beat bzw. die Musikgeschwindigkeit gekoppelt.
+
+![Cue-Netzwerkstruktur](mmp/4.%20Semester/creative%20technology/doku/WhatsApp%20Image%202025-06-30%20at%2010.22.26.jpeg)
 
 ---
 
@@ -82,9 +88,15 @@ Wir haben drei Hauptbereiche zur Analyse des Audiosignals eingerichtet:
 - Insgesamt haben wir sechs verschiedene Visuals umgesetzt.
 - Für dynamische Farb- und Bewegungseffekte haben wir intensiv mit **Noise**-Patterns und **Loops** gearbeitet.
 
+![Shader & Noise Setup](mmp/4.%20Semester/creative%20technology/doku/WhatsApp%20Image%202025-06-30%20at%2010.22.26%20(4).jpeg)
+
+---
+
 ### 5. 🍩 Beispielvisual: Donut mit Text
 
 - Wir haben einen `SOP - Torus` (Donut) als zentrales 3D-Objekt verwendet.
 - Darauf wurde ein Textobjekt (z. B. „Mami Tereza“) platziert.
 - Licht, Kamera und Animationen wurden integriert und durch Audiosignale gesteuert.
+
+![Donut Visual mit Schriftzug](mmp/4.%20Semester/creative%20technology/doku/WhatsApp%20Image%202025-06-30%20at%2010.22.26%20(5).jpeg)
 
