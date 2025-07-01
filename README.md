@@ -98,6 +98,3 @@ Wir haben drei Hauptbereiche zur Analyse des Audiosignals eingerichtet:
 - Über `SOPs` (Surface Operators) haben wir die Geometrie verändert.
 - Licht, Kamera und Animationen wurden integriert und durch Audiosignale gesteuert.
 - Python-Skripte wurden verwendet, um Noise-Werte dynamisch zu animieren, z. B.:
-
-  ```python
-  noise_value = 0.5  # Geringe Bewegungsgeschwindigkeit
