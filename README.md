@@ -39,3 +39,65 @@ Vorort kümmerte sich Dario Giger um die Videoaufnahmen, während Nora Rütimann
 Das Projekt war aufwendig, aber extrem lehrreich. Wir haben unsere Fähigkeiten in der kreativen Arbeit mit Echtzeit-Visuals deutlich erweitert und gelernt, mit neuen Tools, unerwarteten Problemen und limitierten Ressourcen umzugehen. Besonders im Bereich der visuellen Gestaltung konnten wir unsere Stärken einsetzen und weiterentwickeln.
 
 TouchDesigner hat uns gezeigt, wie viel kreatives Potenzial in der Verbindung von Klang und Bild steckt – und wir sind motiviert, diesen Weg weiterzuverfolgen. Trotz aller Stolpersteine sind wir mit dem Resultat sehr zufrieden und stolz auf das, was wir eigenständig auf die Beine gestellt haben.
+
+# 🎧 Audio-Visualisierung mit Blender – Projektdokumentation (Art Installation)
+
+In diesem Projekt haben wir untersucht, wie Audio-Input in Blender genutzt werden kann, um visuelle Effekte in Echtzeit für eine Art-Installation zu steuern. Die Installation basiert auf synchronisierten 3D-Visuals, die auf musikalische Elemente reagieren.
+
+## 🔧 Voraussetzungen
+
+- Blender (mit aktiviertem Python-Scripting)
+- Ein Audiofile oder ein externes Audio-Device
+- Grundkenntnisse in Node-basiertem Arbeiten (Geometry Nodes, Shader Nodes etc.)
+
+---
+
+## 📝 Schritt-für-Schritt-Dokumentation
+
+### 1. 🎵 Vorbereitung des Audio-Inputs
+
+- Wir haben zu Beginn ein fixes Audiofile verwendet, um unser Setup zu testen.
+- Während des Live-Sets sind wir dann auf ein externes Audio-Device umgestiegen.
+
+---
+
+### 2. 🔍 Analyse der Audiodaten
+
+Wir haben drei Hauptbereiche zur Analyse des Audiosignals eingerichtet:
+
+- **Kick-Detection**: zur Erkennung der Bassdrums (hohe Pegel).
+- **Snare-Detection**: zur Erkennung mittlerer Frequenzimpulse.
+- **Speed-Detection**: zur Messung der Geschwindigkeit (Tempo) des Tracks.
+
+#### Aufbau:
+
+- Jeder dieser Bereiche war als eigener Ordner bzw. Subnetz im Node-Netzwerk organisiert.
+- Über `In`-Nodes haben wir Daten aus dem übergeordneten Node-Baum eingebunden.
+- Die Analyse erfolgte über `Audio Aspect Analyze Trail`-Methoden.
+- Die Ergebnisse wurden mit `Out`-Nodes zurück ins Hauptnetzwerk geführt.
+
+---
+
+### 3. 🎚 Visuelle Steuerung über Cues
+
+- Wir haben `Cues` definiert, um visuelle Abläufe synchron zur Musik zu steuern.
+- Beispiel: Die Bewegung von Ballerinas war an den Beat bzw. die Musikgeschwindigkeit gekoppelt.
+
+---
+
+### 4. 🌀 Umsetzung der Visuals
+
+- Insgesamt haben wir sechs verschiedene Visuals umgesetzt.
+- Für dynamische Farb- und Bewegungseffekte haben wir intensiv mit **Noise**-Patterns und **Loops** gearbeitet.
+- Python-Skripte wurden verwendet, um Noise-Werte dynamisch zu animieren, z. B.:
+
+### 5. 🍩 Beispielvisual: Donut mit Text
+
+- Wir haben einen `Torus` (Donut) als zentrales 3D-Objekt verwendet.
+- Darauf wurde ein Textobjekt (z. B. „Mami Teresa“) platziert.
+- Über `SOPs` (Surface Operators) haben wir die Geometrie verändert.
+- Licht, Kamera und Animationen wurden integriert und durch Audiosignale gesteuert.
+- Python-Skripte wurden verwendet, um Noise-Werte dynamisch zu animieren, z. B.:
+
+  ```python
+  noise_value = 0.5  # Geringe Bewegungsgeschwindigkeit
