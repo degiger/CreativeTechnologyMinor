@@ -13,16 +13,19 @@ Zusammen mit der DJane unseres Vertrauens, **mami tereza**, haben wir ein DJ-Set
 
 - [TouchDesigner](https://derivative.ca/)
 - [Audacity](https://www.audacityteam.org/)
-- [YouTube-Tutorials](https://www.youtube.com):
-  - von **elekktronaut**
+- YouTube-Tutorials von:
+  - [Elekktronaut](https://www.youtube.com/@elekktronaut)
+  - [pppanik](https://www.youtube.com/@pppanik)
 - Unterstützung durch:
   - **ChatGPT** für technische Hilfe und Debugging
 
 ## Einarbeitung & Lernprozess
 
-Da es kaum strukturierte Einführung oder Betreuung seitens der Hochschule gab, mussten wir uns praktisch alles selbst beibringen. Der Lernprozess war dementsprechend langwierig, aber auch sehr intensiv. Mit Geduld, YouTube-Tutorials, Foren und ChatGPT konnten wir uns Schritt für Schritt in TouchDesigner einarbeiten. 
+Da es seitens der Hochschule keine strukturierte Einführung oder kontinuierliche Betreuung gab, waren wir gezwungen, uns die nötigen Kenntnisse eigenständig anzueignen. Das stellte insbesondere zu Beginn eine große Herausforderung dar – zumal uns generell nur sehr wenig Zeit zur Verfügung stand und ein hohes Maß an Eigeninitiative gefordert war.
 
-Auch wenn wir den eigenständigen Lernprozess grundsätzlich schätzen, empfinden wir die mangelnde Begleitung – wie sie an der **FHGR** leider häufiger vorkommt – als klaren Schwachpunkt. Eine fundierte Einführung hätte vieles erleichtert und uns schneller zu kreativeren Ergebnissen geführt.
+Die Grundlagen von TouchDesigner konnten wir uns dank zahlreicher YouTube-Tutorials, Online-Foren und ChatGPT schrittweise gut erarbeiten. Deutlich anspruchsvoller war hingegen die technische Umsetzung unserer Ideen, insbesondere ohne Vorerfahrung und ohne die Möglichkeit, regelmäßig auf fachliche Unterstützung zurückzugreifen.
+
+Auch wenn wir den eigenverantwortlichen Lernprozess als bereichernd erlebt haben, hätten wir uns punktuell mehr inhaltliche Begleitung gewünscht. Eine fundierte Einführung und gezielter Support hätten den Einstieg erleichtert und uns geholfen, schneller zu kreativeren und technisch ausgereifteren Ergebnissen zu gelangen.
 
 ## Umsetzung & Technische Herausforderungen
 
@@ -39,16 +42,6 @@ Vorort kümmerte sich Dario Giger um die Videoaufnahmen, während Nora Rütimann
 Das Projekt war aufwendig, aber extrem lehrreich. Wir haben unsere Fähigkeiten in der kreativen Arbeit mit Echtzeit-Visuals deutlich erweitert und gelernt, mit neuen Tools, unerwarteten Problemen und limitierten Ressourcen umzugehen. Besonders im Bereich der visuellen Gestaltung konnten wir unsere Stärken einsetzen und weiterentwickeln.
 
 TouchDesigner hat uns gezeigt, wie viel kreatives Potenzial in der Verbindung von Klang und Bild steckt – und wir sind motiviert, diesen Weg weiterzuverfolgen. Trotz aller Stolpersteine sind wir mit dem Resultat sehr zufrieden und stolz auf das, was wir eigenständig auf die Beine gestellt haben.
-
-# 🎧 Audio-Visualisierung mit Blender – Projektdokumentation (Art Installation)
-
-In diesem Projekt haben wir untersucht, wie Audio-Input in Blender genutzt werden kann, um visuelle Effekte in Echtzeit für eine Art-Installation zu steuern. Die Installation basiert auf synchronisierten 3D-Visuals, die auf musikalische Elemente reagieren.
-
-## 🔧 Voraussetzungen
-
-- Blender (mit aktiviertem Python-Scripting)
-- Ein Audiofile oder ein externes Audio-Device
-- Grundkenntnisse in Node-basiertem Arbeiten (Geometry Nodes, Shader Nodes etc.)
 
 ---
 
@@ -73,7 +66,6 @@ Wir haben drei Hauptbereiche zur Analyse des Audiosignals eingerichtet:
 
 - Jeder dieser Bereiche war als eigener Ordner bzw. Subnetz im Node-Netzwerk organisiert.
 - Über `In`-Nodes haben wir Daten aus dem übergeordneten Node-Baum eingebunden.
-- Die Analyse erfolgte über `Audio Aspect Analyze Trail`-Methoden.
 - Die Ergebnisse wurden mit `Out`-Nodes zurück ins Hauptnetzwerk geführt.
 
 ---
@@ -89,12 +81,10 @@ Wir haben drei Hauptbereiche zur Analyse des Audiosignals eingerichtet:
 
 - Insgesamt haben wir sechs verschiedene Visuals umgesetzt.
 - Für dynamische Farb- und Bewegungseffekte haben wir intensiv mit **Noise**-Patterns und **Loops** gearbeitet.
-- Python-Skripte wurden verwendet, um Noise-Werte dynamisch zu animieren, z. B.:
 
 ### 5. 🍩 Beispielvisual: Donut mit Text
 
-- Wir haben einen `Torus` (Donut) als zentrales 3D-Objekt verwendet.
-- Darauf wurde ein Textobjekt (z. B. „Mami Teresa“) platziert.
-- Über `SOPs` (Surface Operators) haben wir die Geometrie verändert.
+- Wir haben einen `SOP - Torus` (Donut) als zentrales 3D-Objekt verwendet.
+- Darauf wurde ein Textobjekt (z. B. „Mami Tereza“) platziert.
 - Licht, Kamera und Animationen wurden integriert und durch Audiosignale gesteuert.
-- Python-Skripte wurden verwendet, um Noise-Werte dynamisch zu animieren, z. B.:
+
