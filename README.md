@@ -52,7 +52,7 @@ TouchDesigner hat uns gezeigt, wie viel kreatives Potenzial in der Verbindung vo
 - Wir haben zu Beginn ein fixes Audiofile verwendet, um unser Setup zu testen.
 - Während des Live-Sets sind wir dann auf ein externes Audio-Device umgestiegen.
 
-![Audio-Input Setup](mmp/4.%20Semester/creative%20technology/doku/WhatsApp%20Image%202025-06-30%20at%2010.22.26%20(1).jpeg)
+![1](https://github.com/user-attachments/assets/e430f880-a935-454b-9e7d-76c245e06005)
 
 ---
 
@@ -70,7 +70,7 @@ Wir haben drei Hauptbereiche zur Analyse des Audiosignals eingerichtet:
 - Über `In`-Nodes haben wir Daten aus dem übergeordneten Node-Baum eingebunden.
 - Die Ergebnisse wurden mit `Out`-Nodes zurück ins Hauptnetzwerk geführt.
 
-![Kick/Snare/Speed Detection – Struktur](mmp/4.%20Semester/creative%20technology/doku/WhatsApp%20Image%202025-06-30%20at%2010.22.26%20(2).jpeg)
+![2](https://github.com/user-attachments/assets/908beaef-1d76-4387-85dd-07a36ece78bc)
 
 ---
 
@@ -79,7 +79,7 @@ Wir haben drei Hauptbereiche zur Analyse des Audiosignals eingerichtet:
 - Wir haben `Cues` definiert, um visuelle Abläufe synchron zur Musik zu steuern.
 - Beispiel: Die Bewegung von Ballerinas war an den Beat bzw. die Musikgeschwindigkeit gekoppelt.
 
-![Cue-Netzwerkstruktur](mmp/4.%20Semester/creative%20technology/doku/WhatsApp%20Image%202025-06-30%20at%2010.22.26.jpeg)
+![3](https://github.com/user-attachments/assets/40426221-b4ec-499d-bd28-92148d89a193)
 
 ---
 
@@ -88,7 +88,8 @@ Wir haben drei Hauptbereiche zur Analyse des Audiosignals eingerichtet:
 - Insgesamt haben wir sechs verschiedene Visuals umgesetzt.
 - Für dynamische Farb- und Bewegungseffekte haben wir intensiv mit **Noise**-Patterns und **Loops** gearbeitet.
 
-![Shader & Noise Setup](mmp/4.%20Semester/creative%20technology/doku/WhatsApp%20Image%202025-06-30%20at%2010.22.26%20(4).jpeg)
+![4](https://github.com/user-attachments/assets/e4a027e5-2c86-41d4-af13-9a500ef3541a)
+
 
 ---
 
@@ -98,5 +99,5 @@ Wir haben drei Hauptbereiche zur Analyse des Audiosignals eingerichtet:
 - Darauf wurde ein Textobjekt (z. B. „Mami Tereza“) platziert.
 - Licht, Kamera und Animationen wurden integriert und durch Audiosignale gesteuert.
 
-![Donut Visual mit Schriftzug](mmp/4.%20Semester/creative%20technology/doku/WhatsApp%20Image%202025-06-30%20at%2010.22.26%20(5).jpeg)
+![5](https://github.com/user-attachments/assets/ba10db3f-3a43-4e02-a7e6-710dfc8be0ae)
 
