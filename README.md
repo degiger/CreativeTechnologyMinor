@@ -1,6 +1,9 @@
 # CreativeTechnologyMinor - DJ SET "mami tereza"
 Doku der Arbeit für Creative Technology von Dario Luciano Giger und Nora-Lee Rüttimann
 
+# Vlog
+https://youtu.be/b5U8JOe641s
+
 # mami tereza – live DJ set mit visuals
 
 ## Projektbeschreibung
